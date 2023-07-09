@@ -1,0 +1,111 @@
+body {
+    background-color: #EBECE2;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-bg {
+    background-image: url('/images/heading-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.input-field {
+    align-self: center;
+}
+
+.header-text {
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+#search {
+    width: 700px;
+    background-color: #fff;
+    opacity: 0.5;
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    font-family: 'Comic Neue', cursive;
+}
+
+#search:hover {
+    opacity: 0.7;
+}
+.heading {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Comic Neue', cursive;
+    color: #272727;
+}
+
+a {
+    color: #48494a;
+    text-decoration: none;
+align-self: center;
+    font-size: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    
+}
+a:hover {
+    color: #021E20;
+}
+
+.container-breakfast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    background-color: #8F8841;
+}
+    
+@media all and (max-width: 800px) {
+    .header-text {
+        font-size: 50px;
+    }
+
+    #search {
+        width: 400px;
+    }
+}
+@media all and (max-width: 800px) {
+    #search {
+        width: 250px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    img {
+        width: 250px;
+        height: 350px
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
+
+
